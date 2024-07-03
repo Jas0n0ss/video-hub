@@ -18,3 +18,8 @@ This application depends on ffmpeg and yt-dlp , install them first:
     yt-dlp --version
 ```
 ### Setup video-hub
+```
+wget -O /usr/local/sbin/video-hub https://raw.githubusercontent.com/Jas0n0ss/video-hub/main/dist/VideoDownloaderLinux
+chmod +x /usr/local/sbin/video-hub
+video-hub
+```
